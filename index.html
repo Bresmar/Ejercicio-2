@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jugando</title>
+    <style type="text/css">
+      body
+      {
+          background-color: blue;
+          color: white;
+          font-family: Helvetica;
+      }
+      strong
+      {
+          color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Adivinemos tu peso...</h1>
+
+    <script type="text/javascript">
+alert("Tu edad esta por descrubirse");
+var usuario= prompt("¿Cual es tu nombre?");
+var año_actual= prompt("¿En que año estamos " + usuario +"?");
+var fecha_n= prompt("En que año nacistes?");
+
+año_del_usuario= año_actual-fecha_n;
+año_del_usuario= parseInt(año_del_usuario);
+document.write(usuario + " Tienes " +  " <strong>" + año_del_usuario + " años de edad </strong>");
+</script>
+</body>
+</html>
